@@ -1,5 +1,5 @@
 import ProductList from '@/components/ProductList'
-import React from 'react'
+
 
 const ProductsPage = async ({
   searchParams,
