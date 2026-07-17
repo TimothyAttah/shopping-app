@@ -1,12 +1,11 @@
 import { SubmitHandler, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { PaymentFormInputs, paymentFormSchema } from "@/types";
-import { ArrowRight, ShoppingCart } from "lucide-react";
-import { useRouter } from "next/navigation";
+import {  ShoppingCart } from "lucide-react";
 import Image from "next/image";
 
 const PaymentForm = () => {
-  const router = useRouter();
+  // const router = useRouter();
   const {
     register,
     handleSubmit,
