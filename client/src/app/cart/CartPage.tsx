@@ -1,7 +1,7 @@
 "use client";
 import PaymentForm from "@/components/PaymentForm";
 import ShippingForm from "@/components/ShippingForm";
-import { cartItems, steps } from "@/data";
+import { steps } from "@/data";
 import useCartStore from "@/stores/cartStore";
 import { shippingFormSchema } from "@/types";
 import { ArrowRight, Trash2 } from "lucide-react";
